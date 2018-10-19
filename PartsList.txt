@@ -1,0 +1,18 @@
+Parts List
+------------------
+BATTERY - 3.7v Lithium-Ion Cell (18650)
+C1 - 100uF
+C2 - 0.1uF
+DC to DC Boost Module - MT3608 - 2A
+LED1 - Red LED 3mm
+MOSFET -  30N06L
+ON-OFF Switch
+Header - POWER - 1x2
+Header - LCD - 1x4
+R1 - 8.1k
+R2 - 2k
+R3 - 1K
+R4 - 330
+R5 - 4.7K
+R6 - 4.7K
+MicroController - ATtiny85
