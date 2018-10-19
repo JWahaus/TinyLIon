@@ -1,0 +1,20 @@
+  An AtTiny85 based Lithium-Ion battery voltage boost, monitor, and protection circuit.  These types of devices are
+  sometimes referred to as Power Banks or Portable Chargers.
+
+  This circuit allows the use of a 3.7V Lithium-Ion battery cell, such as the popular 18650 cells, to power or charge
+  5.0V (or higher) devices and provides voltage regulation and over discharge protection.   A flashing red LED is used
+  to indicate when the battery is getting low.  Once the battery voltage dips below the desired cut-off voltage, the
+  micro-controller disconnects the battery from the output terminals.
+
+  An optional LCD display can be attached to monitor and display the Battery and Output voltages in real time.  The
+  DC boost module used for stepping up the battery's output voltage is rated at 2A and can boost the output voltage as
+  high as 28V if desired.  The boost module has a potentiometer for adjusting the output voltage.  When using the LCD
+  connector the output voltage should be kept between 4.5V and 7.0V since the LCD is directly powered from the boost
+  module's generated output voltage.
+
+  Some practical guidance when using this circuit:  Although the boost module in this circuit is rated at 2A it is
+  likely not a good idea to draw this much current continuously when using this module as it will get very hot as you
+  approach the module's upper limits.   Keep in mind when calculating current draw that the battery's current draw will
+  be higher than the output current.  For example if the output is using 5V at 1 amp (5 watts of power) then the boost
+  module (assuming 90% efficiency) is using 1.5 amps at 3.7 volts.
+  
