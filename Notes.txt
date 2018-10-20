@@ -1,5 +1,5 @@
 Note:  This program has been tested and works with the ATtiny85 set to either 8MHz or 1MHz.  It may work okay
-at 16HMz, I just haven't tested it at the clock speed.  The goal was minimal power consumption.
+at 16HMz, I just haven't tested it at this clock speed.  The goal was minimal power consumption.
 
 IMPORTANT NOTE FOR 1MHz OPERATION:  I've found that at 1MHz it is necessary to disable I2C BUS 
 arbitration detection by commenting the statement "#define BUS_ARBITRATION" in TinyTWI.h.  It's probably 
